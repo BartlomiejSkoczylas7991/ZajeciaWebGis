@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="utf-8" />
+    <title>Książki Lovecrafta</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <link rel="stylesheet" href="https://js.arcgis.com/4.14/esri/css/main.css">
+    <script src="https://js.arcgis.com/4.14/"></script>
+</head>
+<body>
+    <script src="script.js" defer></script>
+    <div class="header">
+        Twórczość H.P. Lovecrafta
+    </div>
+    <div class="container">
+        <div class="item">
+            <div class="container_Left">
+                <div class="item border"></div>
+                    <div class="item">
+                        
+                            <div class="item"></div>
+                            <div class="item title"> "ZEW CTHULHU "</div>
+                            <div class="item opis">
+                                Opowiadanie składa się z trzech części: Horror w glinie, Opowieść inspektora Legrasse, Szaleństwo na morzu. Narratorem jest uczony, który studiuje dokumenty pozostawione przez „jego wujecznego dziadka, George’a Gammela Angella, emerytowanego profesora języków semickich w Brown University, Providence, Rhode Island”. W skrzynce badacz znalazł dziwną płaskorzeźbę w glinie, bezładne zapiski i jakieś wycinki z gazet. Wszelkie zapiski tyczą się tajemniczego kultu Cthulhu. Wraz z uczonym czytelnik wciągany jest w wir wydarzeń z przeszłości kierujących do mrocznej tajemnicy.
+
+                                Okazuje się, że dziwaczna rzeźba powstała w rękach młodego artysty Wilcoxa, zainspirowanego surrealistycznymi snami o straszliwym mieście. W skrzyni znajdują się niejasno ze sobą powiązane notatki o przypadkach obłędu i chorób psychicznych u różnych ludzi, o sektach, etc.
+                                W dalszej części powoli badacz, a wraz z nim czytelnik, przedziera się przez gąszcz niewiarygodnych opowieści, które podważają naszą, ludzką wiedzę o świecie. Wedle nich poza ludźmi istnieją olbrzymie siły, których się nie da opanować. Jedną z nich jest tajemniczy Cthulhu, który spoczywa ponoć we śnie pod kamienną kryptą zatopionego miasta R’lyeh. O tym mieście pisze naukowiec: „(...) ociekające wodą miasto Cyklopów zbudowane z oślizgłego zielonego kamienia - którego wymiary geometryczne, jak Wilcox dość osobliwie zaznaczył, były nieprawidłowe - i słyszałem w przerażającym oczekiwaniu nieustanne, półprzytomne wołanie z podziemi: „Cthulhu fhtagn”, „Cthulhu fhtagn (...)”.
+                                Jednak kulminacyjną opowieścią jest ta o tajemniczym rejsie „Emmy”. Wraz z jej załogą czytelnik przenosi się w samo serce grobowca Cthulhu.
+                                „Zew Cthulhu” jest najsłynniejszym i jednym z najważniejszych opowiadań Lovecrafta, głównie ze względu na to, że zapisał w nim podstawy świata, który dosyć konsekwentnie (poza wyjątkami) tworzył. W utworze pokazuje zło, które tylko czeka na dogodny układ planet, aby odzyskać władzę nad światem. Badacz utracił zdrowie psychiczne od samych domysłów na temat zatopionego, mulistego miasta i jego władcy. Nietrudno się więc domyślić co się stanie, gdy nadejdzie Dzień Przebudzenia.
+                            </div>
+                            <div class="item link"><<a href="https://pl.wikipedia.org/wiki/Zew_Cthulhu_(opowiadanie)">LINK DO WIKIPEDII</a></div>
+                            <div class="item"></div>
+                            
+                        
+                        <br>
+                        <div class="item">
+                            <div class="grafika">
+                                <img src="img/zew.jpg" class="image">
+                            </div> 
+                        </div>
+                        <div class="item">
+                            
+                                <div class="item"></div>
+                                <div class="item title">"W GÓRACH SZALEŃSTWA"</div>
+                                <div class="item opis">
+                                Powieść "W górach szaleństwa" Lovecraft napisał w 1931 roku i zgodnie uznawana jest za najambitniejszą w jego dorobku literackim.
+                                Historię antarktycznej wyprawy poznajemy oczami Williama Dyera, chociaż jego nazwiska nie znajdziemy w tej relacji. Pada ono w innej opowieści spod znaku grozy - "Cieniu spoza czasu". Sam opis ekspedycji zadziwia mistrzostwem w kreowaniu "zimnych" obrazów, które prowadzą do finału iście przejmującego grozą i makabrą.
+                                A dodatkową atrakcją naszej edycji są ilustracje - kultowe już rysunki Howarda V. Browna z odcinkowego druku tej powieści w amerykańskim "Astounding Stories" od lutego do kwietnia 1936 roku.
+                                </div>
+                                    
+    
+                                <div class="item">
+                                    <div class="grafika">
+                                        <span style="color: black; background: black;"></span>
+                                        <img src="img/wgorach.jpg" class="image">
+                                        <span style="color: white; background: black;"></span>
+                                        
+                                    </div></div>
+                                </div>
+                                <div class="item link"><a href="http://plejbekpisze.blogspot.com/2017/12/w-gorach-szalenstwa.html">LINK do recenzji</a></div>
+                        
+                    </div>
+                    
+                    <br>
+                    <br>                 
+            </div>
+        </div>
+        <div class="item">
+            <button id="satellite">Mapa satelitarna</button>
+            <button id="topo">Mapa topograficzna</button>
+            <button id="osm">Mapa OSM</button>
+            <button id="agol">AGOL</button>
+            <div class="container_Right">
+                <div class="item" id="mapview">
+                </div>
+                <div class="item border"></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
